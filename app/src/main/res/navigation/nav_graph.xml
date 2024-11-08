@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/fragment_races">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/fragment_races"
         android:name="com.example.perro_modulo_6.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_races">
-
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_fragment_races_to_fragment_care"
+            app:destination="@id/fragment_care" />
     </fragment>
+
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.perro_modulo_6.SecondFragment"
+        android:id="@+id/fragment_care"
+        android:name="com.example.perro_modulo_6.FragmentCare"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_care">
-
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_fragment_care_to_fragment_races"
+            app:destination="@id/fragment_races" />
     </fragment>
+
 </navigation>

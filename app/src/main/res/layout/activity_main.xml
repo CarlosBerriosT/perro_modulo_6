@@ -1,10 +1,10 @@
-<!-- res/layout/activity_main.xml -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Logo ImageView -->
     <ImageView
         android:id="@+id/logoImageView"
         android:layout_width="wrap_content"
@@ -13,6 +13,7 @@
         android:src="@drawable/ic_dog_logo"
         android:contentDescription="@string/app_logo" />
 
+    <!-- Welcome TextView -->
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
@@ -23,6 +24,7 @@
         android:text="@string/welcome_message"
         android:textSize="18sp" />
 
+    <!-- Navigation Buttons -->
     <LinearLayout
         android:id="@+id/navigationLayout"
         android:layout_width="match_parent"
@@ -48,6 +50,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/nutrition" />
+
     </LinearLayout>
 
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="My App"
+        android:background="?attr/colorPrimary" />
+
+    <!-- Fragment Container View -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment_content_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+
+    <!-- Floating Action Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_add" />
 </RelativeLayout>

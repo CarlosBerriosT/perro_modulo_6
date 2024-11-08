@@ -16,4 +16,12 @@
         android:id="@+id/raceRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <!-- Button agregado -->
+    <Button
+        android:id="@+id/buttonFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to next fragment"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
