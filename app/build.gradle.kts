@@ -6,12 +6,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.dogapi_039"
+    namespace = "com.example.perro_modulo_6"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.dogapi_039"
-        minSdk = 31
+        applicationId = "com.example.perro_modulo_6"
+        minSdk = 29
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

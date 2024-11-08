@@ -1,4 +1,4 @@
-package com.example.dogapi_039.Modelo.Remote
+package com.example.perro_modulo_6.Modelo.Remote
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

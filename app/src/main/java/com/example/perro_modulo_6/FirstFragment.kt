@@ -1,4 +1,4 @@
-package com.example.dogapi_039
+package com.example.perro_modulo_6
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.dogapi_039.databinding.FragmentFirstBinding
+import com.example.perro_modulo_6.databinding.FragmentFirstBinding
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.

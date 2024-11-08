@@ -1,7 +1,7 @@
-package com.example.dogapi_039.Modelo.Remote
+package com.example.perro_modulo_6.Modelo.Remote
 
-import com.example.dogapi_039.Modelo.Remote.Response.BreedImageResponse
-import com.example.dogapi_039.Modelo.Remote.Response.BreedResponse
+import com.example.perro_modulo_6.Modelo.Remote.Response.BreedImageResponse
+import com.example.perro_modulo_6.Modelo.Remote.Response.BreedResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 

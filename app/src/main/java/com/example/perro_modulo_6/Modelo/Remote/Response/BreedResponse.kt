@@ -1,4 +1,4 @@
-package com.example.dogapi_039.Modelo.Remote.Response
+package com.example.perro_modulo_6.Modelo.Remote.Response
 
 class BreedResponse(
     val message: Map<String, List<String>>,

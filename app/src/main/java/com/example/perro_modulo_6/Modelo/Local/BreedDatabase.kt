@@ -1,12 +1,12 @@
-package com.example.dogapi_039.Modelo.Local
+package com.example.perro_modulo_6.Modelo.Local
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.dogapi_039.Modelo.Local.Entitys.Breed
-import com.example.dogapi_039.Modelo.Local.Entitys.BreedImages
-import com.example.dogapi_039.Modelo.Local.Entitys.Favorite
+import com.example.perro_modulo_6.Modelo.Local.Entitys.Breed
+import com.example.perro_modulo_6.Modelo.Local.Entitys.BreedImages
+import com.example.perro_modulo_6.Modelo.Local.Entitys.Favorite
 
 @Database(entities =[Breed::class, BreedImages::class, Favorite::class],version=1)
 abstract class BreedDatabase :RoomDatabase() {

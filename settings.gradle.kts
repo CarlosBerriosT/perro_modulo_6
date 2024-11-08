@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DogApi_039"
+rootProject.name = "perro_modulo_6"
 include(":app")
  

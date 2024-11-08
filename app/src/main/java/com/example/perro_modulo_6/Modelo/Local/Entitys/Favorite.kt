@@ -1,4 +1,4 @@
-package com.example.dogapi_039.Modelo.Local.Entitys
+package com.example.perro_modulo_6.Modelo.Local.Entitys
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

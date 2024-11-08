@@ -1,9 +1,9 @@
-package com.example.dogapi_039.Modelo
+package com.example.perro_modulo_6.Modelo
 
-import com.example.dogapi_039.Modelo.Local.Entitys.Breed
-import com.example.dogapi_039.Modelo.Local.Entitys.BreedImages
-import com.example.dogapi_039.Modelo.Remote.Response.BreedImageResponse
-import com.example.dogapi_039.Modelo.Remote.Response.BreedResponse
+import com.example.perro_modulo_6.Modelo.Local.Entitys.Breed
+import com.example.perro_modulo_6.Modelo.Local.Entitys.BreedImages
+import com.example.perro_modulo_6.Modelo.Remote.Response.BreedImageResponse
+import com.example.perro_modulo_6.Modelo.Remote.Response.BreedResponse
 
 
 fun mapBreedResponseToBreedEntities(breedResponse: BreedResponse): List<Breed> {
